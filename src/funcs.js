@@ -52,6 +52,7 @@ const loadContracts = async () => {
 };
 
 const loadAccount = async () => {
+    
     const account = window.web3.eth.getCoinbase();
     return account;
 };
